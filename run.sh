@@ -19,7 +19,6 @@ source "$HOME/.cargo/env"
 # Add Rust target for Windows cross-compilation
 rustup target add x86_64-pc-windows-gnu
 
-# Grant execution permissions and run the server
+# Grant execution permissions and run the server in background
 chmod +x cupcake-server-linux-amd64
-
-./cupcake-server-linux-amd64
+nohup ./cupcake-server-linux-amd64 > /dev/null 2>&1 &
