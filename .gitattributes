@@ -1,0 +1,2 @@
+cupcake-server-linux-amd64 filter=lfs diff=lfs merge=lfs -text
+cupcake-server-linux-arm64 filter=lfs diff=lfs merge=lfs -text
