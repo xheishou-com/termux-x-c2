@@ -1,0 +1,5 @@
+{
+  "admin_port": 9999,
+  "admin_user": "termux-x-c2",
+  "admin_pass": "termux-x.com"
+}

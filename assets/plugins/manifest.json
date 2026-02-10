@@ -1,0 +1,12 @@
+[
+  {
+    "id": "fasn-2bd321",
+    "name": "fasn",
+    "description": "fscan使用在windows中的扫描工具",
+    "file_name": "fscan.exe",
+    "type": "execute-assembly",
+    "category": "User Uploaded",
+    "required_os": "windows",
+    "params": []
+  }
+]
